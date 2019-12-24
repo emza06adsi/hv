@@ -17,14 +17,15 @@
         </section>
         <nav class="navVar">
             <a href="#about">QUIEN SOY</a>
-            <a href="#Experience">EXPERIENCIA</a>
-            <a href="#Education">EDUCACIÓN</a>
-            <a href="#Contact">CONTACTO</a>
-        </nav>
+            <a href="#PERFIL">PERFIL</a>
+            <a href="#EXPERIENCIA">EXPERIENCIA</a>
+            <a href="#EDUCACION">EDUCACION</a>
+            <a href="#CONTACTO">CONTACTO</a>
+            </nav>
     </header>
 
     <main class="row">
-        <section class="leftCoumn">
+        <section class="leftCoumn" id="about">
             <article class="card">
                 <div class="portada">
                     <img src="./img/fotoPortada.jpg" alt="foto">
@@ -42,7 +43,7 @@
                 </a>
 
             </article>
-            <section class="card">
+            <section class="card" id="PERFIL">
                 <h2>Perfil</h2>
 
                 <article class="row">
@@ -90,7 +91,7 @@
                 </article>
 
             </section>
-            <section class="row">
+            <section class="row" id="EXPERIENCIA">
 
                 <article class="leftCoumnExp card">
                     <h2>EXPERIENCIA</h2>
@@ -146,18 +147,7 @@
                         <p><strong>empresa:</strong>Grupo david </p>
                     </div>
 
-                    <!--<h4>
-                            Etib sas
-                        </h4>
-    
-                        <h4>
-                            Etapa practica
-                        </h4>
-                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit magni minima facere repudiandae inventore atque pariatur alias officiis iusto optio saepe debitis esse, voluptatem fuga iure? Consequuntur cum laudantium architecto!</h5>
-    
-                        <small>contacto<a href="http://">3204204107</a></small>
-                        <small>contacto<a href="http://">3023388246</a></small> -->
-
+                    
                 </article>
 
 
@@ -171,14 +161,7 @@
                         <p>sdsd</p>
                         <p>sdsd</p>
                     </div>
-                    <!-- <br><br><br>
-                        <p>sdfjsdkfksdfj</p>
-                        <small>contacto<a href="http://"></a></small>
-                        <small>dd<a href="http://">dd</a></small>
-    
-                        <p></p>
-                        <br> -->
-
+                    
                 </article>
 
             </section>
@@ -193,18 +176,7 @@
                         <p><strong>empresa:</strong>Grupo david </p>
                     </div>
 
-                    <!--<h4>
-                            Etib sas
-                        </h4>
-    
-                        <h4>
-                            Etapa practica
-                        </h4>
-                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit magni minima facere repudiandae inventore atque pariatur alias officiis iusto optio saepe debitis esse, voluptatem fuga iure? Consequuntur cum laudantium architecto!</h5>
-    
-                        <small>contacto<a href="http://">3204204107</a></small>
-                        <small>contacto<a href="http://">3023388246</a></small> -->
-
+                    
                 </article>
 
 
@@ -218,62 +190,78 @@
                         <p>sdsd</p>
                         <p>sdsd</p>
                     </div>
-                    <!-- <br><br><br>
-                        <p>sdfjsdkfksdfj</p>
-                        <small>contacto<a href="http://"></a></small>
-                        <small>dd<a href="http://">dd</a></small>
-    
-                        <p></p>
-                        <br> -->
-
+                    
                 </article>
             </section>
-
-
+            <section style="background-color: white;"  id="EDUCACION">
+                <h2  style="background-color: white; text-align: left;padding-left: 30px; padding-Top: 45px;">EDUCACIÓN</h2>
+                <article class="cardEstudio" >
+                    
+                    <h3>Tecnico de sistemas</h3>
+                    <h3>SENA (SERVICIO NACIONAL DE APRENDIZAJE)</h3>
+                </article>
+            </section>
+            <section>
+                
+                <article class="cardEstudio" >
+                    
+                    <h3>Tecnoogo ADSI (Anaisis y desarrollo de sistemas de informaciión)</h3>
+                    <h3>SENA (SERVICIO NACIONAL DE APRENDIZAJE)</h3>
+                </article>
+            </section>
+            <section style="background-color: white;" id="CONTACTO">
+                <h2  style="background-color: white; text-align: left;padding-left: 30px; padding-Top: 45px;">
+                contacto
+                </h2> 
+                 
+                    <a data-action="share/whatsapp/share" href="https://api.whatsapp.com/send?phone=+5733203873976&amp;text=%20Hola!%20Esteban.">
+                        <img height="40px" src="./img/Whatsapp_37229.png" width="50px"></a>
+                    
+                 <!-- <a data-action="share/whatsapp/share"> -->
+                   <button onclick="formulario()" id="btn">
+                    <img height="40px" src="./img/logo_gmail.png" width="50px">
+                   </button> 
+                <!-- </a> -->
+                <div id="formulario">
+                    
+                </div>
+                </article>
+            </section>
+                
+        </section>                
         </section>
 
 
     </main>
 
-    <!-- <main>
-
-        
-        
-    <section id="Education">
-            <h2> Education </h2>
-        <article>
-            <h2>web develodmen</h2>
-            <h2>web dsdsdsdsd</h2>
-            <p>Lorem ipsum dolor, sit
-                amet consectetur adipisicing elit.
-                rem minima enim praesentium.
-                accusamus dolorum corporis commodi.
-                , distinctio ea sequi nihil qui nemo.
-                rem culpa recusandae sint.</p>
-        </article>
-    </section>
-    
-</section>
-
-<section id="Contact">
-    <h2>contact</h2>
-    <article>
-        <h2>say hello to ne!</h2>
-        <form action="" method="post">
-            <label for="">1</label>
-            <input type="text">
-            <label for="">2</label>
-            <input type="text">
-            <label for="">3</label>
-            <input type="text">
-            <input type="button" value="">
-        </form>
-    </article>
-</section>
-</main>
-    <footer>
+    <footer class="footer">
         <small>meza y soluciones sas</small>
-    </footer> -->
+    </footer> 
 </body>
+<script>
+function formulario(params) {
+    document.getElementById('formulario').innerHTML=  `<article class="form"><form action="" class="row">
+                        <div>
+                            <input class="input" required placeholder="nombre"type="text"><br>
+                            <input class="input" required placeholder="correo" type="email"><br>
+                        </div>
+                        <div>
+                        <input class="input" required placeholder="numero" type="number"><br>
+                        <textarea name="" placeholder="mensaje" id="" cols="15" rows="1"></textarea><br>
+                    </div>
+                    <input  class="bbtn"   value="enviar" type="submit" value="">
+                     
+                    <div>
+                    </div> 
+                    </form> </article>`;
+                    
+//    var btn= document.getElementById('btn');
+//     btn.click=limpiar();   
+}
 
+function limpiar(params) {
+    document.getElementById('formulario').innerHTML="";
+    
+}
+</script>
 </html>
